@@ -1,5 +1,9 @@
 import { Schema, Document, model, ObjectId } from 'mongoose';
 
+const username = [];
+const email = [];
+
+
 interface IUser extends Document {
   first: string;
   last: string;
